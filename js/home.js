@@ -33,6 +33,7 @@ import { blogData } from "./data/blog/blogData.js";
 
 // RESUME 
 import { resume } from "./components/resume/resume.js";
+import { resumeData } from "./data/resume/resumeData.js";
 
 
 
