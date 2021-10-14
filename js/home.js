@@ -28,12 +28,15 @@ import { portfolioPhotoData } from "./data/portfolio-gallery/portfolioPhotoData.
 import { portfolioVideoData } from "./data/portfolio-gallery/portfolioVideoData.js";
 
 // BLOG
-import { Blog} from "./components/blog/Blog.js";
+import { Blog } from "./components/blog/Blog.js";
 import { blogData } from "./data/blog/blogData.js";
 
+// RESUME 
+import { resume } from "./components/resume/resume.js";
 
 
-// ************ EXECUTE IS MODULES ************
+
+// ************ EXECUTE MODULES ************
 
 // HERO - HEADER
 backgroundDelay();
@@ -55,3 +58,6 @@ new GalleryNavigation(portfolioAllData, portfolioBrandData, portfolioDesignData,
 
 // BUTTON
 allButtonAnimation();
+
+// RESUME 
+resume();

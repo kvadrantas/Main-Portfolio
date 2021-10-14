@@ -54,6 +54,7 @@
 }
 
 .my-resume .date {
+    margin-top: 50px;
     font-size: .8rem;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -92,14 +93,36 @@
     line-height: 1.2;
 }
 
-.my-resume .description {
+.my-resume .description,
+.spec-content p {
     color: #4b4b4b;
     font-size: .8rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     margin-top: 5px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     text-transform: capitalize;
+}
 
+.spec-content p {
+    text-align: left;
+}
+
+
+/* EXPANDABLE CONTENT */
+
+.spec-content {
+    margin-left: 20px;
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+    background-color: #f4f5f8;
+    border-radius: 10px;
+    border: 1px solid #e0e1e4;
+    /* margin-bottom: -50px; */
+  }
+
+.active {
+    display: inline-block;
 }
