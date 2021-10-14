@@ -1,0 +1,105 @@
+.my-resume ul {
+    /* border: 1px solid green; */
+}
+
+.my-resume ul li {
+    list-style-type: none;
+}
+
+.resume-left {
+    position: relative;
+    float: left;
+    padding-top: 50px;
+    border: 0;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    width: 47%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.circle {
+    background-color: #2e353e;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    text-align: center;
+}
+
+.resume-left .circle {
+    left: calc(100% - 20px);
+    top: -20px;
+}
+
+.resume-right .circle {
+    left: -20px;
+    top: -20px;
+}
+
+.resume-right {
+    position: relative;
+    float: right;
+    padding-top: 50px;
+    border: 0;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    width: 47%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.my-resume .date {
+    font-size: .8rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.85714286em;
+    color: #212529;
+}
+
+.my-resume .date::after {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    border: 2px solid #d6b161;
+    background-color: #212529;
+    margin-top: 6px;
+    content: '';
+}
+
+.resume-left .date::after {
+    position: absolute;
+    left: calc(100% - 5px);
+}
+
+.resume-right .date::after {
+    position: absolute;
+    left: -6px;
+}
+
+.my-resume .work {
+    color: var(--primary);
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.my-resume .description {
+    color: #4b4b4b;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+
+}

@@ -18,7 +18,7 @@ import { skillsProgressData } from "./data/skillsProgressData.js";
 import { allButtonAnimation } from "./components/button/button.js";
 
 
-// PRTFOLIO GALLERY
+// PORTFOLIO GALLERY
 import { GalleryHover } from "./components/portfolio-gallery/GalleryHover.js";
 import { GalleryNavigation } from "./components/portfolio-gallery/GalleryNavigation.js";
 import { portfolioAllData } from "./data/portfolio-gallery/portfolioAllData.js";
