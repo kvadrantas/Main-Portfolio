@@ -165,6 +165,7 @@
 .my-portfolio .gallery-photo img{
     width: 100%;
     border-radius: 4px;
+    border: 1px solid #e0e1e4;
 }
 
 .my-portfolio .photo-title {

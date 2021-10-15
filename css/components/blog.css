@@ -23,6 +23,7 @@
 
 .latest-blog img {
     width: 100%;
+    border: 1px solid #e0e1e4;
 }
 
 .latest-blog .blog-button {
