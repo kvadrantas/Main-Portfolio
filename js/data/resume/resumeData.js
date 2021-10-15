@@ -85,6 +85,69 @@ const resumeData = [
             Antivirus servers: Symantec, Panda<br>
         </p>`
     },
+    {
+        content: 
+        `<p>
+            This is a 5.5 month full time courses intender for Javascript developers. Course teaches strong JavaScript basics, front-end and back-end software development, a comprehensive introduction to the JavaScript programming language, Object-oriented programming in the Node.js environment, development of online systems and applications. Knowledge and skills gained during the program ensures all the critical needs required of a Junior Full-Stack Javascript developer.<br><br>
+
+            <i>Technologies covered by course: </i><br><br>
+            - HTML / CSS<br>
+            - JavaScript Frontend & Backend<br>
+            - Node.js<br>
+            - Node.js + Mysql<br>
+            - React<br>
+        </p>`
+    },
+    {
+        content: 
+        `<p>
+            <i>The #1 bestselling JavaScript course on Udemy! </i><br><br>
+            
+            <i>Course contains beginner, intermediate, advanced, and expert topics.</i><br><br>
+
+            Things covered by course:<br>
+            - Master the JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, and more<br>
+            - Learn modern JavaScript (ES6+) from the beginning: arrow functions, destructuring, spread operator, default arguments, optional chaining (ES2020), and more<br>
+            - How JavaScript works behind the scenes: engines, the call stack, hoisting, scoping, the 'this' keyword, reference values, and more.<br>
+            - Deep dive into functions: arrow functions, first-class and higher-order functions, bind, and closures.<br>
+            - Deep dive into object-oriented programming: prototypal inheritance, constructor functions (ES5), classes (ES6), encapsulation, abstraction, inheritance, and polymorphism. [This is like a small standalone course]<br>
+            - Deep dive into asynchronous JavaScript: the event loop, promises, async/await, and error handling. You will use these to access data from third-party APIs with AJAX calls. [This is like a small standalone course]<br>
+            - Learn modern tools that are used by professional web developers: NPM, Parcel (module bundler), Babel, and ES6 modules<br>
+        </p>`
+    },
+    {
+        content: 
+        `<p>
+            <i>The #1 bestselling HTML and CSS course on Udemy! </i><br><br>
+
+            <i>Course teaches how to: </i><br>
+            - use modern HTML5, CSS3 and web design, Includes flexbox and CSS Grid. <br>
+            - use well-established website components and layout patterns in order to come up with professional-looking designs.<br>
+            - make any website work on any mobile device, no matter the design and layout (responsive design).<br>
+            - find and use free design assets such as images, fonts, and icons.<br>
+            - fix code errors and using professional web development tools<br>
+        </p>`
+    },
+    {
+        content: 
+        `<p>
+            <i>The #1 bestselling HTML and CSS course on Udemy! </i><br><br>
+
+            <i>MICROSOFT CERTIFICATION </i><br><br>
+            Microsoft Certified Azure Administrator Associate<br>
+            MCTS: Microsoft Exchange Server 2010, Configuration<br>
+            MCTS: Windows Server® 2008 Active Directory, Configuration<br>
+            Microsoft® Certified Technology Specialist (MCTS)<br>
+            MCTS: Windows Server® 2008 Network Infrastructure, Configuration<br>
+            MCITP: Server Administrator on Windows Server® 2008<br>
+            Microsoft® Certified IT Professional (MCITP)<br>
+            MCTS: Windows Server® 2008 Applications Infrastructure, Configuration<br>
+            MCTS: SQL Server® 2008, Implementation and Maintenance<br><br>
+
+            <i>VMWARE CERTIFICATION </i><br><br>
+            VMware Certified Professional on vSphere 5
+        </p>`
+    },
 
 ];
 

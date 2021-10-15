@@ -100,7 +100,7 @@
     line-height: 1.85714286em;
     font-family: 'Montserrat', sans-serif;
     font-size: .86em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--secondary);
     width: 75%;
 }

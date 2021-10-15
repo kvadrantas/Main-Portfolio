@@ -1,9 +1,18 @@
-.my-resume ul {
-    /* border: 1px solid green; */
+.my-resume {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .my-resume ul li {
     list-style-type: none;
+    cursor: pointer;
+}
+
+.my-resume ul li:hover {
+    text-shadow: .1px .1px .2px;
+    /* background-color: #f4f5f8; */
+    /* border-radius: 10px;
+    border: 1px solid #e0e1e4; */
 }
 
 .resume-left {
@@ -28,6 +37,12 @@
     position: absolute;
     top: 9px;
     text-align: center;
+}
+
+.circle i {
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .resume-left .circle {
@@ -99,7 +114,7 @@
     font-size: .8rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.2;
+    line-height: 20px;
     margin-top: 5px;
     /* margin-bottom: 50px; */
     text-transform: capitalize;
@@ -107,13 +122,13 @@
 
 .spec-content p {
     text-align: left;
+    text-transform: none;
 }
 
 
 /* EXPANDABLE CONTENT */
 
 .spec-content {
-    margin-left: 20px;
     padding: 20px;
     display: none;
     overflow: hidden;
@@ -123,6 +138,45 @@
     /* margin-bottom: -50px; */
   }
 
+.resume-left .spec-content {
+    margin-left: 20px;
+}
+
+.resume-right .spec-content {
+    margin-right: 20px;
+}
+
 .active {
     display: inline-block;
+}
+
+/* MEDIA */
+
+@media (max-width: 830px) {
+    .resume-left {
+        display: block;
+        width: 95%;
+        margin-bottom: 100px;
+    }
+
+    .resume-right {
+        display: block;
+        width: 95%;
+    }
+}
+
+@media (max-width: 411px) {
+    .spec-content p {
+        font-size: 10px;
+    }
+
+    .resume-left {
+        width: 92%;
+        padding-left: 10px;
+    }
+
+    .resume-right {
+        width: 92%;
+        padding-right: 10px;
+    }
 }

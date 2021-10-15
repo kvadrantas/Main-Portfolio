@@ -1,21 +1,21 @@
 const blogData = [
     {
         status: 'published',
-        photoName: '1.jpeg',
-        photoAlt: 'Design photo',
-        buttonText: 'UX/UI',
-        buttonLink: '#',
-        titleText: 'Light trails on highway',
-        titleLink: '#',
+        photoName: '11-min.jpg',
+        photoAlt: 'Progress Dashboarad',
+        buttonText: 'Progress',
+        buttonLink: 'https://rolandasseputis.lt/progress-dashboard/',
+        titleText: 'Progress Dashboarad',
+        titleLink: 'https://rolandasseputis.lt/progress-dashboard/',
         paragraph: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.',
         authorPhotoName: '1.jpeg',
         authorPhotoAlt: 'Authors photo',
-        author: 'JACK DANIEL',
-        date: '25 JUNE 2017'
+        author: 'Rolandas Šeputis',
+        date: 'Jun 2021 - Nov 2021'
     },
     {
         status: 'published',
-        photoName: '2.jpeg',
+        photoName: '22-min.jpg',
         photoAlt: 'Design photo',
         buttonText: 'Web Design',
         buttonLink: '#',
@@ -24,12 +24,12 @@ const blogData = [
         paragraph: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
         authorPhotoName: '2.jpeg',
         authorPhotoAlt: 'Authors photo',
-        author: 'JACK DANIEL',
-        date: '25 JUNE 2017'
+        author: 'Rolandas Šeputis',
+        date: 'Jun 2021 - Nov 2021'
     },
     {
         status: 'published',
-        photoName: '3.jpeg',
+        photoName: '33-min.jpg',
         photoAlt: 'Design photo',
         buttonText: 'development',
         buttonLink: '#',
@@ -38,8 +38,8 @@ const blogData = [
         paragraph: 'Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.',
         authorPhotoName: '3.jpeg',
         authorPhotoAlt: 'Authors photo',
-        author: 'JACK DANIEL',
-        date: '25 JUNE 2017'
+        author: 'Rolandas Šeputis',
+        date: 'Jun 2021 - Nov 2021'
     },
     {
         status: 'draft',
@@ -52,7 +52,7 @@ const blogData = [
         paragraph: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.',
         authorPhotoName: '1.jpeg',
         authorPhotoAlt: 'Authors photo',
-        author: 'JACK DANIEL',
+        author: 'Rolandas Šeputis',
         date: '25 JUNE 2017'
     },
 
