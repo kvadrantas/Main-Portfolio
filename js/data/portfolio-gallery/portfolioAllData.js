@@ -2,50 +2,50 @@ const portfolioAllData = [
     {
         status: 'published',
         imgName: '1.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design1'
+        imgAltName: 'Coming Soon',
+        overlayTitle: 'Coming Soon'
     },
     {
         status: 'published',
         imgName: '2.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design2'
+        imgAltName: 'Žmonės IS',
+        overlayTitle: 'Žmonės IS'
     },
     {
         status: 'published',
         imgName: '3.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design3'
+        imgAltName: 'Pig Game',
+        overlayTitle: 'Pig Game'
     },
     {
         status: 'published',
         imgName: '4.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design4'
+        imgAltName: 'Baloon Poping',
+        overlayTitle: 'Baloon Poping'
     },
     {
         status: 'published',
         imgName: '6.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design6'
+        imgAltName: 'Sign Up',
+        overlayTitle: 'Sign Up'
     },
     {
         status: 'published',
         imgName: '5.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design5'
+        imgAltName: 'Vaskici',
+        overlayTitle: 'Vaskici'
     },
     {
         status: 'published',
         imgName: '7.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design7'
+        imgAltName: 'Progress Dashboard',
+        overlayTitle: 'Progress Dashboard'
     },
     {
         status: 'published',
         imgName: '8.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design8'
+        imgAltName: 'Healthy Food Shop',
+        overlayTitle: 'Healthy Food Shop'
     }
 ];
 

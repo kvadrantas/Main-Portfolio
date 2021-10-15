@@ -32,15 +32,15 @@ class GalleryNavigation {
                         this.data = this.allData;
                         this.renderGallery();
                         break;
-                    case 'Brand':
+                    case 'HTML':
                         this.data = this.brandData;
                         this.renderGallery();
                         break;
-                    case 'Design':
+                    case 'JavaScript':
                         this.data = this.designData;
                         this.renderGallery();
                         break;
-                    case 'Photo':
+                    case 'Node.js':
                         this.data = this.photoData;
                         this.renderGallery();
                         break;
@@ -70,8 +70,12 @@ class GalleryNavigation {
         for (const photo of this.data) {
             if (photo.status === 'published') {
                 const image = document.getElementById(`img${i + 1}`);
+                const gitPrev = document.getElementById(`gitView${i + 1}`);
+                const gitRepo = document.getElementById(`gitRepo${i + 1}`);
                 image.src = this.link + photo.imgName;
                 image.alt = photo.imgAltName;
+                gitPrev.href = 'google.lt';
+                gitRepo.href = 'google.lt';
                 this.galleryPhotos[i].querySelector('.photo-title').innerHTML = photo.overlayTitle;
                 i++;
    

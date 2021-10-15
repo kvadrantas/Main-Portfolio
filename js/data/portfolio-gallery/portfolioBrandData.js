@@ -1,9 +1,9 @@
 const portfolioBrandData = [
     {
-        status: 'draft',
+        status: 'published',
         imgName: '1.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design1'
+        imgAltName: 'Coming Soon',
+        overlayTitle: 'Coming Soon'
     },
     {
         status: 'draft',
@@ -26,8 +26,8 @@ const portfolioBrandData = [
     {
         status: 'published',
         imgName: '6.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design6'
+        imgAltName: 'Sign Up',
+        overlayTitle: 'Sign Up'
     },
     {
         status: 'draft',
@@ -36,16 +36,16 @@ const portfolioBrandData = [
         overlayTitle: 'WEB Design5'
     },
     {
-        status: 'published',
+        status: 'draft',
         imgName: '7.jpg',
         imgAltName: 'WEB Design',
         overlayTitle: 'WEB Design7'
     },
     {
-        status: 'draft',
+        status: 'published',
         imgName: '8.jpg',
-        imgAltName: 'WEB Design',
-        overlayTitle: 'WEB Design8'
+        imgAltName: 'Healthy Food Shop',
+        overlayTitle: 'Healthy Food Shop'
     }
 ];
 
