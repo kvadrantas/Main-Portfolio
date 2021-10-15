@@ -3,7 +3,9 @@ const portfolioBrandData = [
         status: 'published',
         imgName: '1.jpg',
         imgAltName: 'Coming Soon',
-        overlayTitle: 'Coming Soon'
+        overlayTitle: 'Coming Soon',
+        gitPrev: 'https://kvadrantas.github.io/5-commingsoon/',
+        gitRepo: 'https://github.com/kvadrantas/5-commingsoon'
     },
     {
         status: 'draft',
@@ -27,7 +29,9 @@ const portfolioBrandData = [
         status: 'published',
         imgName: '6.jpg',
         imgAltName: 'Sign Up',
-        overlayTitle: 'Sign Up'
+        overlayTitle: 'Sign Up',
+        gitPrev: 'https://kvadrantas.github.io/4-signup/',
+        gitRepo: 'https://github.com/kvadrantas/4-signup'
     },
     {
         status: 'draft',
@@ -45,7 +49,9 @@ const portfolioBrandData = [
         status: 'published',
         imgName: '8.jpg',
         imgAltName: 'Healthy Food Shop',
-        overlayTitle: 'Healthy Food Shop'
+        overlayTitle: 'Healthy Food Shop',
+        gitPrev: 'https://kvadrantas.github.io/Udemy1-HTML-CSS-Food/',
+        gitRepo: 'https://github.com/kvadrantas/Udemy1-HTML-CSS-Food'
     }
 ];
 

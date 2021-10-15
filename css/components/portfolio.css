@@ -184,6 +184,7 @@
     font-size: 18px;
     text-align: center;
     margin: 16px;
+    text-decoration: none;
 }
 
 @media (max-width: 875px) {

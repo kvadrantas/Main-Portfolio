@@ -15,13 +15,17 @@ const portfolioDesignData = [
         status: 'published',
         imgName: '3.jpg',
         imgAltName: 'Pig Game',
-        overlayTitle: 'Pig Game'
+        overlayTitle: 'Pig Game',
+        gitPrev: 'https://kvadrantas.github.io/07-Pig-Game/',
+        gitRepo: 'https://github.com/kvadrantas/07-Pig-Game'
     },
     {
         status: 'published',
         imgName: 'a1.jpg',
         imgAltName: 'Guess Number Game',
-        overlayTitle: 'Guess Number Game'
+        overlayTitle: 'Guess Number Game',
+        gitPrev: 'https://kvadrantas.github.io/05-Guess-My-Number/',
+        gitRepo: 'https://github.com/kvadrantas/05-Guess-My-Number'
     },
     {
         status: 'draft',
@@ -33,7 +37,9 @@ const portfolioDesignData = [
         status: 'published',
         imgName: '5.jpg',
         imgAltName: 'Vaskici',
-        overlayTitle: 'Vaskici'
+        overlayTitle: 'Vaskici',
+        gitPrev: 'https://kvadrantas.github.io/vasckici/#',
+        gitRepo: 'https://github.com/kvadrantas/vasckici'
     },
     {
         status: 'draft',

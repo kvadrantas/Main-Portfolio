@@ -74,8 +74,8 @@ class GalleryNavigation {
                 const gitRepo = document.getElementById(`gitRepo${i + 1}`);
                 image.src = this.link + photo.imgName;
                 image.alt = photo.imgAltName;
-                gitPrev.href = 'google.lt';
-                gitRepo.href = 'google.lt';
+                gitPrev.href = photo.gitPrev;
+                gitRepo.href = photo.gitRepo;
                 this.galleryPhotos[i].querySelector('.photo-title').innerHTML = photo.overlayTitle;
                 i++;
    
