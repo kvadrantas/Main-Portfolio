@@ -1,6 +1,27 @@
+.multi-block {
+  margin-top: 50px;
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #f4f5f8;
+}
+
+.multi-block h4 {
+  margin-bottom: 40px;
+}
+
+.multi-block > div {
+  flex: 32%;
+}
+.contacts {
+  /* float: left; */
+  margin-right: 50px;
+}
+
 .contacts i {
   text-align: center;
-
   display: inline-block;
   width: 43px;
   height: 43px;
@@ -19,5 +40,15 @@
   width: 43px;
   height: 43px;
   border-radius: 50%;
+}
+
+.contacts h1 {
+  text-transform: uppercase;
+}
+
+.contacts div {
+  display: block;
+  line-height: 43px;
+  color: var(--primary);
 }
 
