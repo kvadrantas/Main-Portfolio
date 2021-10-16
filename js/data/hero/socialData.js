@@ -16,7 +16,7 @@ let socialData = [
     },
     {
         status: 'published',
-        icon: 'linkedin',
+        icon: 'linkedin-in',
         link: '#'
     },
     {

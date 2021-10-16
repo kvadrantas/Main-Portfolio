@@ -1,0 +1,23 @@
+.contacts i {
+  text-align: center;
+
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  color: var(--third);
+  margin: 0 5px;
+  text-decoration: none;
+  line-height: 43px;
+  background-color: var(--primary);
+  transition: background-color .2s ease-in;
+  border-radius: 50%;
+}
+
+.contacts i:before {
+  background-color: #201f1f54;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
