@@ -29,8 +29,24 @@
     margin-bottom: 0;
 }
 
+.percentBox {
+    float: left;
+    height: 15px;
+    width: 23px;
+    border-radius: 5px;
+    margin-top: -7.5px;
+    margin-left: -23px;
+    font-size: 10px;
+    line-height: 13px;
+    padding-left: 2px;
+    background-color: #fff;
+    z-index: 10;
+    position: relative;
+    border: 1px solid red;
+}
+
 .skills .pb-fill {
-    display: inline-block;
+    float: left;
     position: relative;
     top: 0;
     left: 0;
@@ -47,6 +63,6 @@
     }
 
     100% {
-        width: 70%;
+        /* width: 70%; */
     }
 }

@@ -1,39 +1,25 @@
-const html1 = `
-<p>HTML/CSS</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>
-<p>JavaScript</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>
-<p>Node.js</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>
-<p>React</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>`;
+import { slidebarData } from "../../data/slide-bar/slidebarData.js";
 
-const html2 = `
-<p>HTML/CSS 2</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>
-<p>JavaScript 2</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>
-<p>Node.js 2</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>
-<p>React 2</p>
-<div class="progress-bar">
-    <div class="pb-fill"></div>
-</div>`
+function renderHtml(i) {
+    let html= '';
+    slidebarData[i].forEach(el => {
+        html += `
+            <p>${el.name}</p>
+            <div class="progress-bar">
+                <div class="pb-fill" style="width: ${el.value}%"></div>
+                <div class="percentBox">${el.value}%</div>
+            </div>`
+    });
+    console.log('HTMLSAS ', html);
+    return html;
+}
 
+const html1 = renderHtml(0);
+const html2 = renderHtml(1);
+
+console.log(slidebarData);
+
+document.getElementById('slideBarContent').innerHTML =  html1;
 
 function slidebar() {
     console.log('ISKIVETE ', document.getElementById('slide-bar'));
@@ -41,7 +27,7 @@ function slidebar() {
     toggleBtn.addEventListener('click', () => {
         toggleBtn.classList.toggle('active')
         console.log('CLASES ');
-        document.getElementById('slideBarContent').innerHTML = toggleBtn.classList.value === 'active' ? html1 : html2;
+        document.getElementById('slideBarContent').innerHTML = toggleBtn.classList.value === 'active' ? html2 : html1;
     })
     
 };

@@ -37,6 +37,7 @@ import { resumeData } from "./data/resume/resumeData.js";
 
 // SLIDE-BAR
 import { slidebar } from "./components/slide-bar/slidebar.js";
+import { slidebarData } from "./data/slide-bar/slidebarData.js";
 
 
 
