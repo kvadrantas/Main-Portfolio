@@ -1,6 +1,6 @@
 .multi-block {
-  margin-top: 50px;
-  padding: 70px 50px;
+  margin-top: 70px;
+  padding: 0 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,16 +8,20 @@
   background-color: #f4f5f8;
 }
 
+.multi-block p {
+  margin-bottom: 40px;
+}
+
 .multi-block h4 {
   margin-bottom: 40px;
 }
 
 .multi-block > div {
-  flex: 32%;
+  flex: 33.33%;
 }
 .contacts {
   /* float: left; */
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .contacts i {
@@ -47,8 +51,29 @@
 }
 
 .contacts div {
+  margin-bottom: 10px;
   display: block;
   line-height: 43px;
   color: var(--primary);
 }
 
+/* MEDIA */
+
+@media (max-width: 920px) {
+  .multi-block > div {
+    flex: none;
+    /* display: block; */
+    width: 50%;
+  }
+
+  .multi-block {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .multi-block > div {
+    display: block;
+    width: 100%;
+  }
+}

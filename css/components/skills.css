@@ -1,7 +1,52 @@
+.skills {
+    width: 100%;
+}
+
 .skills h3 {
     font-size: 15px;
     margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
     color: #232323;
     text-transform: uppercase;
+}
+
+.multi-block .mainTitleBlock {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.skills .progress-bar {
+    display: inline-block;
+    position: relative;
+    height: 3px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.multi-block .skills p {
+    margin-bottom: 0;
+}
+
+.skills .pb-fill {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 3px;
+    border-radius: 3px;
+    /* width: 70%; */
+    background-color: var(--primary);
+    animation: progress-anim 1s forwards;
+}
+
+@keyframes progress-anim {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
 }
