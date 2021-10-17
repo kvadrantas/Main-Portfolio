@@ -35,6 +35,9 @@ import { blogData } from "./data/blog/blogData.js";
 import { resume } from "./components/resume/resume.js";
 import { resumeData } from "./data/resume/resumeData.js";
 
+// SLIDE-BAR
+import { slidebar } from "./components/slide-bar/slidebar.js";
+
 
 
 // ************ EXECUTE MODULES ************
@@ -62,3 +65,6 @@ allButtonAnimation();
 
 // RESUME 
 resume();
+
+// SLIDE-BAR
+slidebar();
