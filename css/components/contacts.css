@@ -1,3 +1,8 @@
+
+.multi-block .mainTitleBlock {
+  text-align: left;
+}
+
 .switch-bar {
   display: inline-block;
   margin-bottom: 20px;
@@ -24,8 +29,8 @@
 }
 
 .multi-block {
-  margin-top: 70px;
-  padding: 0 50px;
+  /* margin-top: 70px; */
+  padding: 50px 50px 50px 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -45,8 +50,7 @@
   flex: 33.33%;
 }
 .contacts {
-  /* float: left; */
-  /* margin-right: 50px; */
+  /* margin-bottom: 50px; */
 }
 
 .contacts i {
@@ -92,7 +96,12 @@
   }
 
   .multi-block {
-    padding: 0 20px;
+    padding: 50px 20px;
+  }
+
+  .contacts,
+  .education {
+    margin-bottom: 50px;
   }
 }
 
@@ -100,5 +109,26 @@
   .multi-block > div {
     display: block;
     width: 100%;
+    /* margin-bottom: 0; */
+  }
+
+  .contacts {
+    margin-bottom: 50px;
+  }
+
+  .education h3:last-of-type {
+    margin-top: 40px;
+  }
+
+  .education {
+    margin-bottom: 60px;
+  }
+
+  .education p {
+    margin-bottom: 0;
+  }
+
+  .multi-block h4 {
+    margin-bottom: 30px;
   }
 }

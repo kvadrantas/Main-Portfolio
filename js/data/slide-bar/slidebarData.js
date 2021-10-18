@@ -20,7 +20,7 @@ const slidebarData = [
     [
         {
             name: 'MS Exchange',
-            value: '90'
+            value: '95'
         },
         {
             name: 'VMware',
@@ -28,12 +28,32 @@ const slidebarData = [
         },
         {
             name: 'Hyper-V',
-            value: '70'
+            value: '80'
         },
         {
             name: 'MS SQL',
-            value: '80'
-        }
+            value: '90'
+        },
+        {
+            name: 'Windows',
+            value: '90'
+        },
+        {
+            name: 'MS DPM',
+            value: '90'
+        },
+        {
+            name: 'IIS / WIN NLB / AD / DNS / DHCP / WSUS',
+            value: '90'
+        },
+        {
+            name: 'VEEAM / Acronis / MS DPM',
+            value: '90'
+        },
+        {
+            name: 'Nagios / SCOM / Cactis / Anturis',
+            value: '90'
+        },
     ],
 ];
 

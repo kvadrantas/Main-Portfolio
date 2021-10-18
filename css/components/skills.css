@@ -1,5 +1,6 @@
 .skills {
     width: 100%;
+    /* margin-bottom: 50px; */
 }
 
 .skills h3 {
@@ -8,11 +9,6 @@
     font-family: 'Montserrat', sans-serif;
     color: #232323;
     text-transform: uppercase;
-}
-
-.multi-block .mainTitleBlock {
-    text-align: left;
-    margin-top: 50px;
 }
 
 .skills .progress-bar {
