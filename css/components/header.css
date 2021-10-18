@@ -213,7 +213,8 @@ nav {
   line-height: 43px;
 }
 
-.hero .socials a:before {
+.hero .socials a:before,
+.fa-cvonline {
   background-color: #201f1f54;
   display: inline-block;
   width: 43px;

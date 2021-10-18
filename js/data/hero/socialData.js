@@ -1,7 +1,7 @@
 let socialData = [
     {
         status: 'published',
-        icon: 'cvonline',
+        icon: 'fab fa-cvonline',
         link: '#'
     },
     {
@@ -16,13 +16,13 @@ let socialData = [
     },
     {
         status: 'published',
-        icon: 'linkedin-in',
+        icon: 'fab fa-linkedin-in',
         link: '#'
     },
     {
-        status: 'draft',
-        icon: 'dribbble',
-        link: '#'
+        status: 'published',
+        icon: 'fab fa-github',
+        link: 'https://github.com/kvadrantas'
     },
     {
         status: 'draft',
