@@ -3,6 +3,7 @@
 }
 
 .testimonial {border: 1px solid rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
     position: relative;
     padding: 0 0;
     background-image: url(../../img/client.jpeg);

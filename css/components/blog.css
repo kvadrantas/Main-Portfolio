@@ -167,7 +167,7 @@
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
     .latest-blog .author {
         padding-top: 0px;
         float: none;
@@ -178,5 +178,10 @@
        padding-top: 0px;
        float: none;
        display: block;
+   }
+
+   .latest-blog .date {
+    padding-top: 0;
+    margin-left: 0;
    }
 }

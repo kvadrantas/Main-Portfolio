@@ -227,7 +227,8 @@ nav {
 }
 
 /* Responsiveness */
-@media (max-width: 861px) {
+/* 861 */
+@media (max-width: 1040px) {
   .hero span {
     font-size: 1rem;
   }

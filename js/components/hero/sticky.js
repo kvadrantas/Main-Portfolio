@@ -46,7 +46,7 @@ addEventListener('scroll', () => {
 window.addEventListener('resize', function() {
     // console.log(window.innerHeight);
     // console.log(window.innerWidth);
-    if (window.innerWidth <= 861) {
+    if (window.innerWidth <= 1040) {
         navbarExpandDOM.classList.add('expanded');
         navbarExpandDOM.style.display = "none";
         isVisible = false;
