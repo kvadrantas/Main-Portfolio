@@ -18,13 +18,14 @@
 @import './components/header.css';
 @import './components/skills.css';
 @import "./components/blog.css";
-@import "./components/main-tittles.css";
+/* @import "./components/main-tittles.css"; */
 @import "./components/counter.css";
 @import "./components/portfolio.css";
 @import "./components/me-resume.css";
 @import "./components/contacts.css";
 @import "./components/education.css";
 @import "./components/slide-bar.css";
+@import "./components/primaryTitle.css";
 
 
 
@@ -41,40 +42,3 @@ section {
 
 /* ------------------------------------------------------ */
 
-/* SECTION ABOUT ME */
-
-/* SECTION MY SKILLS */
-.my-skills {
-}
-
-/* SECTION MY RESUME */
-.my-resume {
-}
-
-/* SECTION COUNTER */
-.counter {
-}
-
-/* SECTION MY SERVICES */
-.my-services {
-}
-
-/* SECTION MY PORTFOLIO */
-.my-portfolio {
-}
-
-/* SECTION MY TESTIMONIALS */
-.testimonial {
-}
-
-/* SECTION LATEST BLOG */
-.latest-blog {
-}
-
-/* SECTION GET IN TOUCH */
-.contact {
-}
-
-/* FOOTER */
-footer {
-}

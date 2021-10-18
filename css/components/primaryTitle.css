@@ -1,0 +1,27 @@
+h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.primaryTitle,
+.primaryTitle span {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 10%);
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.primaryTitle span:first-of-type {
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+    padding-left: 0;
+}
+
+.primaryTitle span:last-of-type {
+    color: var(--secondary);
+    border-bottom: 1px solid #e2e0e0;
+}

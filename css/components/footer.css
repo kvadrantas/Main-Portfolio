@@ -5,7 +5,8 @@
     color: #E0E0E0;
 }
 
-footer h3 {
+footer h3,
+footer span {
     text-align: center;
     font-size: .8rem;
     color: var(--background);
@@ -14,4 +15,5 @@ footer h3 {
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 8px;
+    word-spacing: 2px;
 }
