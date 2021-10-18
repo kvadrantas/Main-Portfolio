@@ -53,6 +53,12 @@
   /* margin-bottom: 50px; */
 }
 
+.contact-link {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .contacts i {
   text-align: center;
   display: inline-block;
@@ -113,7 +119,7 @@
   }
 
   .contacts {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .education h3:last-of-type {
@@ -121,7 +127,7 @@
   }
 
   .education {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 
   .education p {

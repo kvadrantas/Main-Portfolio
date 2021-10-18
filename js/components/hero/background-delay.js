@@ -40,7 +40,7 @@ function backgroundDelay() {
     
             // console.log(move);
     
-            hero.style = `transition: background-position .2s ease-in; background-position: 0 ${move}px;`;
+            hero.style = `transition: background-position .2s ease-in; background-position: 11% ${move}px;`;
         }, 70);
     
     });    

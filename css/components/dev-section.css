@@ -1,0 +1,85 @@
+.dev-section {
+    position: relative;
+    height: 400px;
+    position: relative;
+    background-image: url(../../img/client.jpeg);
+    /* height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #666666;
+    margin-bottom: 50px;
+    padding: 0;
+    position: relative;
+}
+.dev-section h1 {
+    position: absolute;
+    color: rgb(221, 219, 219);
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    top: 34px;
+}
+
+.dev-section .overlay {
+    height: 100%;
+}
+
+.dev-section .content {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev-section .element {
+    flex: 33.3%;
+    align-items: center;
+}
+
+.dev-section i {
+    font-size: 90px;
+    color: var(--primary);
+    /* color: rgba(255, 255, 255, 0.575); */
+}
+
+.dev-section h4 {
+    margin-top: 10px;
+    color: rgb(221, 219, 219);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* MEDIA */
+
+@media (max-width: 750px) {
+    .dev-section i {
+        font-size: 60px;
+    }
+
+    .dev-section h4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .dev-section .content {
+        flex-direction: column;
+    }
+
+    .dev-section {
+        position: relative;
+        height: 700px;
+    }
+
+    .dev-section i {
+        font-size: 50px;
+    }
+
+    .dev-section .content {
+        padding-top: 130px;
+    }
+}

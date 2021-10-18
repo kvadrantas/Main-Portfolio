@@ -18,14 +18,13 @@
 @import './components/header.css';
 @import './components/skills.css';
 @import "./components/blog.css";
-/* @import "./components/main-tittles.css"; */
-@import "./components/counter.css";
 @import "./components/portfolio.css";
 @import "./components/me-resume.css";
 @import "./components/contacts.css";
 @import "./components/education.css";
 @import "./components/slide-bar.css";
 @import "./components/primaryTitle.css";
+@import "./components/dev-section.css";
 
 
 

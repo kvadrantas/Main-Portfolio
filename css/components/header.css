@@ -12,6 +12,7 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-position: center; */
   background-attachment: fixed;
   background-color: #666666;
   margin-bottom: 50px;
@@ -262,6 +263,12 @@ nav {
   .hero .title {
     text-align: center;
     margin-top: 220px;
+  }
+}
+
+@media (max-width: 570px) {
+  .hero {
+    background-position: 11%;
   }
 }
 
