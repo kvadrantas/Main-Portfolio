@@ -3,6 +3,10 @@
     margin-bottom: 50px;
 }
 
+.my-resume a{
+    color: var(--primary);
+}
+
 .my-resume ul li {
     list-style-type: none;
     cursor: pointer;

@@ -1,6 +1,11 @@
 let socialData = [
     {
         status: 'published',
+        icon: 'fas fa-tasks',
+        link: 'https://rolandasseputis.lt/progress-dashboard/'
+    },
+    {
+        status: 'draft',
         icon: 'fab fa-cvonline',
         link: '#'
     },
@@ -17,7 +22,7 @@ let socialData = [
     {
         status: 'published',
         icon: 'fab fa-linkedin-in',
-        link: '#'
+        link: 'https://www.linkedin.com/in/rolandas-šeputis'
     },
     {
         status: 'published',

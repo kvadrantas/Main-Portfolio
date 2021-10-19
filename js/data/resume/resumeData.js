@@ -134,18 +134,19 @@ const resumeData = [
             <i>The #1 bestselling HTML and CSS course on Udemy! </i><br><br>
 
             <i>MICROSOFT CERTIFICATION </i><br><br>
-            Microsoft Certified Azure Administrator Associate<br>
-            MCTS: Microsoft Exchange Server 2010, Configuration<br>
-            MCTS: Windows Server® 2008 Active Directory, Configuration<br>
-            Microsoft® Certified Technology Specialist (MCTS)<br>
-            MCTS: Windows Server® 2008 Network Infrastructure, Configuration<br>
-            MCITP: Server Administrator on Windows Server® 2008<br>
-            Microsoft® Certified IT Professional (MCITP)<br>
-            MCTS: Windows Server® 2008 Applications Infrastructure, Configuration<br>
-            MCTS: SQL Server® 2008, Implementation and Maintenance<br><br>
+            <a href='#./doc/Azure-Fundamentals-AZ-900.pdf' target='_blank'>Microsoft Certified Azure Fundamentals</a><br>
+            <a href='#./doc/Azure-Administrator-Associate-AZ-103.pdf' target='_blank'>Microsoft Certified Azure Administrator Associate</a><br>
+            <a href='#./doc/MS-Exchange-server-2010-Configuration.pdf' target='_blank'>MCTS: Microsoft Exchange Server 2010, Configuration</a><br>
+            <a href='#./doc/Windows-Server-2008-Active-Directory-Configuration.pdf' target='_blank'>MCTS: Windows Server® 2008 Active Directory, Configuration</a><br>
+            <a href='#./doc/Windows-Server-2008.pdf' target='_blank'>Microsoft® Certified Technology Specialist (MCTS)</a><br>
+            <a href='#./doc/Windows-Server-2008-Network-Infrastructure-Configuration.pdf' target='_blank'>MCTS: Windows Server® 2008 Network Infrastructure, Configuration</a><br>
+            <a href='#./doc/MCITP-Microsoft-Certified-IT-Professional-Server-Administrator-on-Windows-Server-2008.pdf' target='_blank'>MCITP: Server Administrator on Windows Server® 2008</a><br>
+            <a href='#./doc/Microsoft-Certified-Professional.pdf' target='_blank'>Microsoft® Certified IT Professional (MCITP)</a><br>
+            <a href='#./doc/Windows-Server-Application-Infrastructure-Configuration.pdf' target='_blank'>MCTS: Windows Server® 2008 Applications Infrastructure, Configuration</a><br>
+            <a href='#./doc/SQL-Server-2008-Implementation-and-Maintenance.pdf' target='_blank'>MCTS: SQL Server® 2008, Implementation and Maintenance</a><br><br>
 
             <i>VMWARE CERTIFICATION </i><br><br>
-            VMware Certified Professional on vSphere 5
+            <a href='./doc/vmware-cert.pdf' target='_blank'>VMware Certified Professional on vSphere 5</a>
         </p>`
     },
 

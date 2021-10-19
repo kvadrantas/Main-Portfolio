@@ -10,3 +10,6 @@
     text-transform: uppercase;
 }
 
+.education a {
+    color: var(--primary);
+}
