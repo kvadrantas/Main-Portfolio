@@ -27,11 +27,11 @@ class Blog {
 
              html = `<div class="blog-container col-12 col-lg-4">
                         <img src="./img/blog/${photoName}" alt="${photoAlt}">
-                        <a href="${buttonLink}" class = "blog-button">
+                        <a href="${buttonLink}" class = "blog-button" target="_blank">
                             ${buttonText}
                         </a>
                         <div class="blog-content">
-                            <a href="${titleLink}">
+                            <a href="${titleLink}" target="_blank">
                                 <h2 class="blog-title">
                                     ${titleText}
                                 </h2>

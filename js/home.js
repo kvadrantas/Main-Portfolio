@@ -9,8 +9,8 @@ import { socialData } from "./data/hero/socialData.js";
 import { Social } from "./components/hero/Social.js";
 
 // TESTIMONIAL
-import { testimonialData } from "./data/testimonial/testimonialData.js";
-import { Testimonial } from "./components/testimonial/Testimonial.js";
+// import { testimonialData } from "./data/testimonial/testimonialData.js";
+// import { Testimonial } from "./components/testimonial/Testimonial.js";
 
 // BUTTON ANIMATION
 import { allButtonAnimation } from "./components/button/button.js";
@@ -46,7 +46,7 @@ backgroundDelay();
 sticky();
 new AutotypeText(autotypeTextData);
 new Social('.socials', socialData);
-new Testimonial(testimonialData);
+// new Testimonial(testimonialData);
 
 // BLOG
 new Blog(blogData);
