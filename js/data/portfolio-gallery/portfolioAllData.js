@@ -4,7 +4,7 @@ const portfolioAllData = [
         imgName: '1.jpg',
         imgAltName: 'Coming Soon',
         overlayTitle: 'Coming Soon',
-        gitPrev: 'https://kvadrantas.github.io/5-commingsoon/',
+        gitPrev: 'https://comingsoon.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/5-commingsoon'
     },
     {
@@ -12,15 +12,15 @@ const portfolioAllData = [
         imgName: '2.jpg',
         imgAltName: 'Žmonės IS',
         overlayTitle: 'Žmonės IS',
-        gitPrev: 'https://rolandasseputis.lt:2949/zmones?',
-        gitRepo: 'https://github.com/kvadrantas/Main-Zmones-IS-SQL'
+        gitPrev: 'c',
+        gitRepo: 'https://zmonesiis.github.com/kvadrantas/Main-Zmones-IS-SQL'
     },
     {
         status: 'published',
         imgName: '3.jpg',
         imgAltName: 'Pig Game',
         overlayTitle: 'Pig Game',
-        gitPrev: 'https://kvadrantas.github.io/07-Pig-Game/',
+        gitPrev: 'https://piggame.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/07-Pig-Game'
     },
     {
@@ -36,7 +36,7 @@ const portfolioAllData = [
         imgName: '6.jpg',
         imgAltName: 'Sign Up',
         overlayTitle: 'Sign Up',
-        gitPrev: 'https://kvadrantas.github.io/4-signup/',
+        gitPrev: 'https://signup.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/4-signup'
     },
     {
@@ -44,7 +44,7 @@ const portfolioAllData = [
         imgName: '5.jpg',
         imgAltName: 'Vaskici',
         overlayTitle: 'Vaskici',
-        gitPrev: 'https://kvadrantas.github.io/vasckici/#',
+        gitPrev: 'https://vaskici.rolandasseputis.lt/#',
         gitRepo: 'https://github.com/kvadrantas/vasckici'
     },
     {
@@ -52,7 +52,7 @@ const portfolioAllData = [
         imgName: '7.jpg',
         imgAltName: 'Progress Dashboard',
         overlayTitle: 'Progress Dashboard',
-        gitPrev: 'https://rolandasseputis.lt/progress-dashboard/',
+        gitPrev: 'https://dashboard.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/Main-Achievement-Dashboard'
     },
     {
@@ -60,7 +60,7 @@ const portfolioAllData = [
         imgName: '8.jpg',
         imgAltName: 'Healthy Food Shop',
         overlayTitle: 'Healthy Food Shop',
-        gitPrev: 'https://kvadrantas.github.io/Udemy1-HTML-CSS-Food/',
+        gitPrev: 'https://food.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas/Udemy1-HTML-CSS-Food'
     }
 ];

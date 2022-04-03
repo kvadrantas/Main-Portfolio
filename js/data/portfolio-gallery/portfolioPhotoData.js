@@ -10,15 +10,15 @@ const portfolioPhotoData = [
         imgName: '2.jpg',
         imgAltName: 'Žmonės IS',
         overlayTitle: 'Žmonės IS',
-        gitPrev: 'https://rolandasseputis.lt:2949/zmones?',
-        gitRepo: 'https://github.com/kvadrantas/Main-Zmones-IS-SQL'
+        gitPrev: 'https://zmonesiis.rolandasseputis.lt:2949/zmones?',
+        gitRepo: 'https://zmonesiis.github.com/kvadrantas/Main-Zmones-IS-SQL'
     },
     {
         status: 'published',
         imgName: 'a2.jpg',
         imgAltName: 'Learning Dashboard',
         overlayTitle: 'Learning Dashboard',
-        gitPrev: 'https://rolandasseputis.lt/learning-dashboard/',
+        gitPrev: 'https://learning.rolandasseputis.lt/',
         gitRepo: 'https://github.com/kvadrantas?tab=repositories&q=main-learning&type=&language=&sort='
     },
     {
