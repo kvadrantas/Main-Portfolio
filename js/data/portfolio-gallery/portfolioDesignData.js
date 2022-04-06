@@ -24,7 +24,7 @@ const portfolioDesignData = [
         imgName: 'a1.jpg',
         imgAltName: 'Guess Number Game',
         overlayTitle: 'Guess Number Game',
-        gitPrev: 'https://quessmynumber.rolandasseputis.lt',
+        gitPrev: 'https://guessmynumber.rolandasseputis.lt',
         gitRepo: 'https://github.com/kvadrantas/05-Guess-My-Number'
     },
     {

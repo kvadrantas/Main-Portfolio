@@ -10,7 +10,7 @@ const portfolioPhotoData = [
         imgName: '2.jpg',
         imgAltName: 'Žmonės IS',
         overlayTitle: 'Žmonės IS',
-        gitPrev: 'https://zmonesiis.rolandasseputis.lt:2949/zmones?',
+        gitPrev: 'https://zmonesiis.rolandasseputis.lt/zmones?',
         gitRepo: 'https://zmonesiis.github.com/kvadrantas/Main-Zmones-IS-SQL'
     },
     {
